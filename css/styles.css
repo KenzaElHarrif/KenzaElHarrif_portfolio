@@ -1,0 +1,55 @@
+:root{
+    --rosePink: #FB76CF;
+    --darkGray: #555555;
+    --seasalt: #f8f8f8;
+    --wisteria: #d6aae4;
+    --sunset: #fac485;
+
+}
+
+*{
+    font-family: work sans;
+    
+}
+
+body{
+    background-color: var(--seasalt);
+}
+
+header{
+    font-size: 80%;
+    font-weight: 600;
+    color: var(--darkGray);
+}
+
+.navbar-brand{
+    font-weight: 700;
+}
+
+section{
+    width: 100vw;
+    height: 100vh;
+}
+
+section.hero{
+    position: relative;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(../assets/images/ROND1.png);
+    background-repeat: no-repeat;
+    background-position: 85% 60%;
+    background-size: 35% 70%;
+}
+svg{
+    position: absolute; /* or relative */
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+}
+
+svg.title-black{
+    top: 49.7%;
+}
