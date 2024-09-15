@@ -37,11 +37,21 @@ section.hero{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
+}
+
+div.rond{
+    right: 0;
+    position:absolute;
+    border: 5px solid var(--rosePink);
+    width: 50%;
+    height: 90%;
     background-image: url(../assets/images/ROND1.png);
     background-repeat: no-repeat;
-    background-position: 85% 60%;
-    background-size: 35% 70%;
+    background-position: 50% 50%;
+    background-size: contain;
 }
+
 svg{
     position: absolute; /* or relative */
     left: 50%;
