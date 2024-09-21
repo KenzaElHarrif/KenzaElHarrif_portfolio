@@ -24,15 +24,18 @@ body{
 header{
     margin: none;
     width: 100%;
-    font-size: 80%;
+    
     font-weight: 600;
 }
 nav{
+    font-size: 20px;
     width: 100vw;
     margin: none;
 }
 
 .navbar-brand{
+    color: var(--darkGray);
+    font-size: 30px;
     font-weight: 700;
 }
 
@@ -74,12 +77,13 @@ svg.title-black{
     opacity: 1;
 }
 
-.h3{
+.prenom-nom{
     /*display: none;*/
-    font-weight: 600;
     position: relative;
-    top:39%;
-    left: 29.7%;
+    font-size: 3vw;
+    font-weight: 600;
+    left: 29.61%;
+    bottom:-30%;
 }
 
 .navbar-toggler{
