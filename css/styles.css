@@ -15,6 +15,7 @@
 
 body{
     background-color: var(--seasalt);
+    overflow-x: hidden;
 }
 
 header{
