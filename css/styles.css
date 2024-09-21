@@ -13,9 +13,12 @@
     /*overflow-x: hidden;*/
 }
 
+html{
+    overflow-x: hidden;
+}
+
 body{
     background-color: var(--seasalt);
-    overflow-x: hidden;
 }
 
 header{
