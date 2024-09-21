@@ -74,14 +74,12 @@ svg.title-black{
     opacity: 1;
 }
 
-.prenom-nom{
+.h3{
     /*display: none;*/
-    width: 50%;
-    font-size: 100%;
     font-weight: 600;
     position: relative;
-
-    top: 35%;
+    top:39%;
+    left: 29.7%;
 }
 
 .navbar-toggler{
