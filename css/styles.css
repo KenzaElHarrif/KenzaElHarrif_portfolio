@@ -10,16 +10,16 @@
 *{
     font-family: work sans;
     color: var(--darkGray);
-    overflow-x: hidden;
 }
 
 body{
     background-color: var(--seasalt);
+    overflow-x: hidden;
 }
 
 header{
     margin: none;
-    width: 100vw;
+    width: 100%;
     font-size: 80%;
     font-weight: 600;
 }
@@ -72,6 +72,7 @@ svg.title-black{
 
 .prenom-nom{
     /*display: none;*/
+    width: 50%;
     font-size: 100%;
     font-weight: 600;
     position: relative;

@@ -40,7 +40,7 @@ gsap.fromTo(".no5", {opacity:0, y:"-20%", x:"-50%"}, {opacity:1, y:"78", duratio
     end:"bottom",
 }})
 
-gsap.fromTo(".prenom-nom", {opacity:0, x:"29%"},{opacity:1,x:"30%", duration:1, ease:"power1.inOut",scrollTrigger: {
+gsap.fromTo(".prenom-nom", {opacity:0, x:"58%"},{opacity:1,x:"59%", duration:1, ease:"power1.inOut",scrollTrigger: {
     trigger: ".rond",
     toggleActions: "restart none none reverse",
     start:"8%",
