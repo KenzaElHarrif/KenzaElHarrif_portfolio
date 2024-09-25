@@ -89,3 +89,9 @@ svg.title-black{
 .navbar-toggler{
     border: none;
 }
+
+
+h1{
+    font-size: 96px;
+    font-weight: bolder;
+}
