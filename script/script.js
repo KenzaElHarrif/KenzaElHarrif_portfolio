@@ -1,5 +1,13 @@
 gsap.registerPlugin(ScrollTrigger);
 
+const myHero = gsap.timeline({scrollTrigger: {
+    trigger: ".hero",
+    pin:true,
+    toggleActions: "restart none none reverse",
+    start:"top top",
+    end:"+=550"
+}});
+
 gsap.fromTo(".title-black",{y:"-20%", x:"-50%"},{y:"-125%", duration: 2.5, ease: "power1.inOut",scrollTrigger: {
     trigger: ".hero",
     toggleActions: "restart none none reverse",
@@ -40,9 +48,9 @@ gsap.fromTo(".no5", {opacity:0, y:"-20%", x:"-50%"}, {opacity:1, y:"78", duratio
     end:"bottom",
 }})
 
-gsap.fromTo(".prenom-nom", {opacity:0, x:"-1%"},{opacity:1,x:"0%", duration:1, ease:"power1.inOut",scrollTrigger: {
+gsap.fromTo(".prenom-nom", {opacity:0, x:"-1%"},{opacity:1,x:"0.5%", duration:1, ease:"power1.inOut", delay:1.7,scrollTrigger: {
     trigger: ".hero",
     toggleActions: "restart none none reverse",
-    start:"8%",
+    start:"0",
     end:"bottom",
 }})

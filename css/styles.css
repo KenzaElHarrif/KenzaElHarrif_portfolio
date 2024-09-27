@@ -28,28 +28,32 @@ header{
     font-weight: 600;
 }
 nav{
+    z-index: 99;
     font-size: 20px;
     width: 100vw;
     margin: none;
+    mix-blend-mode: multiply;
 }
 
 .navbar-brand{
+    
     color: var(--darkGray);
     font-size: 30px;
     font-weight: 700;
+    
 }
 
+
 section{
-    width: 100vw;
-    height: 100vh;
-    margin: none;
+    width: 99vw;
+    height: 99vh;
 }
 
 section.hero{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+    margin: none;
 }
 
 div.rond{
@@ -65,7 +69,6 @@ div.rond{
 
 svg{
     display: block;
-    opacity: 0;
     position: absolute; /* or relative */
     left: 50%;
     top: 50%;
@@ -83,15 +86,77 @@ svg.title-black{
     font-size: 2em;
     font-weight: 600;
     left: 29.61%;
-    bottom:-30%;
+    bottom:-275px;
 }
 
 .navbar-toggler{
     border: none;
 }
 
+.card{
+    position: relative;
+    border-radius: 20px;
+    height: 30vw;
+    border: none;
+    overflow: hidden;
+    background-color: transparent;
+    transition-duration:0.5s;
+}
+
+.card-title{
+    color: white;
+    position: absolute;
+    top: 40%;
+    transition-duration:0.5s;
+}
+
+.card-text{
+    color: white;
+    position: absolute;
+    top: 50%;
+    transition-duration:0.5s;
+}
+
+/*.card:hover{
+    box-shadow: 0px 15px 25px 1px var(--rosePink);
+    transition-duration:0.5s;
+}*/
+
+.card:hover .card-text{
+    opacity: 0;
+}
+.card:hover .card-title{
+    opacity: 0;
+}
+
+
+.img-fluid{
+    border-radius: 15px;
+    height: 100%;
+    object-fit: cover;
+    filter: blur(10px) brightness(80%);
+    transition-duration:0.5s;
+}
+
+.img-fluid:hover{
+    filter: blur(0) brightness(100%);
+}
 
 h1{
-    font-size: 96px;
-    font-weight: bolder;
+    font-size: 86px;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 768px){
+    .prenom-nom{
+        font-size: 1.5em;
+        bottom:-210px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .prenom-nom{
+        /*display: none;*/
+        font-size: 1em;
+    }
 }
