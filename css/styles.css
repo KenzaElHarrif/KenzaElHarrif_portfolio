@@ -21,6 +21,7 @@ body{
     background-color: var(--seasalt);
 }
 
+/*MENU*/
 header{
     margin: none;
     width: 100%;
@@ -45,8 +46,9 @@ nav{
 
 
 section{
-    width: 99vw;
-    height: 99vh;
+    position: relative;
+    width: 90vw;
+    height: 100vh;
 }
 
 section.hero{
@@ -54,6 +56,10 @@ section.hero{
     flex-direction: column;
     justify-content: center;
     margin: none;
+}
+
+section.projets{
+    height: 100%;
 }
 
 div.rond{
@@ -93,10 +99,19 @@ svg.title-black{
     border: none;
 }
 
+
+/*CARDS*/
+
+.grid{
+    display:flex;
+    flex-wrap: ;
+}
 .card{
+    margin: 20px;
     position: relative;
     border-radius: 20px;
-    height: 30vw;
+    max-width: 20vw;
+    height: 20vw;
     border: none;
     overflow: hidden;
     background-color: transparent;
