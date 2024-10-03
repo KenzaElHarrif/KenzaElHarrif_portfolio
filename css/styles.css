@@ -45,8 +45,7 @@ nav{
 
 section{
     position: relative;
-    max-width: 2000px;
-    margin: auto;
+    max-width: 99%;
 }
 
 section.hero{
@@ -99,7 +98,8 @@ svg.title-black{
 
 /*CARDS*/
 
-.grid{
+.row{
+    width: 100%;
     display:flex;
     flex-wrap: wrap;
 }
@@ -107,8 +107,8 @@ svg.title-black{
     margin: 20px;
     position: relative;
     border-radius: 20px;
-    max-width: 20vw;
-    height: 20vw;
+    width: 100%;
+    height: 40vh;
     border: none;
     overflow: hidden;
     background-color: transparent;
@@ -120,23 +120,21 @@ svg.title-black{
     width: 100%;
     padding: 30px;
     text-align: center;
-    font-size: 40px;
-    opacity: 0;
+    font-size: 2em;
     color: white;
     position: absolute;
-    top: 30%;
+    top: 10%;
     transition-duration:0.5s;
     pointer-events: none;
 }
 
 .card-text{
-    font-size: 18px;
+    font-size: 1em;
     font-weight: 500;
     text-align: center;
-    opacity: 0;
     color: white;
     position: absolute;
-    top: 50%;
+    top: 40%;
     transition-duration:0.5s;
     padding: 30px;
     pointer-events: none;
@@ -149,28 +147,32 @@ svg.title-black{
 }
 
 .card:hover .card-text{
-    opacity: 1;
+    opacity: 0;
 }
 .card:hover .card-title{
-    opacity: 1;
+    opacity: 0;
 }
 
 
 .img-fluid{
     border-radius: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
     height: 100%;
     object-fit: cover;
-    filter: blur(0) brightness(100%);
+    filter: blur(7px) brightness(80%);
     
     transition-duration:0.5s;
 }
 
 .img-fluid:hover{
-    filter: blur(7px) brightness(80%);
+    filter: blur(0) brightness(100%);
 }
 
 h1{
-    font-size: 86px;
+    font-size: 3.5em;
     font-weight: 600;
 }
 
