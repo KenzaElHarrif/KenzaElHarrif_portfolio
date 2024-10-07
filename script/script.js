@@ -3,9 +3,7 @@ gsap.registerPlugin(ScrollTrigger);
 const myHero = gsap.timeline({scrollTrigger: {
     trigger: ".hero",
     pin:true,
-    toggleActions: "restart none none reverse",
     start:"top top",
-    end:"+=550"
 }});
 
 const card = document.querySelectorAll(".card");
@@ -57,14 +55,13 @@ gsap.fromTo(".prenom-nom", {opacity:0, x:"-1%"},{opacity:1,x:"0.5%", duration:1,
     end:"bottom",
 }})
 
-gsap.fromTo(card,{opacity:0, y:0} ,{
+gsap.fromTo(card,{opacity:0,} ,{
     scrollTrigger: {
         trigger: "#projets",
         toggleActions: "restart none none reverse",
     },
-    y:-10,
     opacity:1,
     stagger: 0.2,
-    ease:"power1.out",
-    duration:0.1
+    ease:"power1.in",
+    duration:0.5
   });
