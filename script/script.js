@@ -8,6 +8,8 @@ const myHero = gsap.timeline({scrollTrigger: {
     end:"+=550"
 }});
 
+const card = document.querySelectorAll(".card");
+
 gsap.fromTo(".title-black",{y:"-20%", x:"-50%"},{y:"-125%", duration: 2.5, ease: "power1.inOut",scrollTrigger: {
     trigger: ".hero",
     toggleActions: "restart none none reverse",
@@ -54,3 +56,15 @@ gsap.fromTo(".prenom-nom", {opacity:0, x:"-1%"},{opacity:1,x:"0.5%", duration:1,
     start:"0",
     end:"bottom",
 }})
+
+gsap.fromTo(card,{opacity:0, y:0} ,{
+    scrollTrigger: {
+        trigger: "#projets",
+        toggleActions: "restart none none reverse",
+    },
+    y:-10,
+    opacity:1,
+    stagger: 0.2,
+    ease:"power1.out",
+    duration:0.1
+  });

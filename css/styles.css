@@ -44,6 +44,7 @@ nav{
 
 
 section{
+    margin-bottom: 150px;
     position: relative;
     max-width: 99%;
 }
@@ -113,7 +114,7 @@ svg.title-black{
     overflow: hidden;
     background-color: transparent;
     transition-duration:0.5s;
-    
+    border: 2px solid var(--darkGray);
 }
 
 .card-title{
@@ -141,7 +142,7 @@ svg.title-black{
 }
 
 .card:hover{
-    box-shadow: 0px 15px 25px 1px var(--wisteria);
+    box-shadow: 5px 5px var(--seasalt), 7px 7px var(--darkGray), 10px 10px var(--seasalt), 12px 12px var(--darkGray), 15px 15px var(--seasalt), 17px 17px var(--darkGray);
     transform: translateY(-10px);
     transition-duration:0.5s;
 }
@@ -175,6 +176,16 @@ h1{
     font-size: 3.5em;
     font-weight: 600;
 }
+
+
+
+/*.titre-apropos{
+    display: none;
+}
+
+.titre-competences{
+    display: none;
+}*/
 
 @media screen and (max-width: 768px){
     .prenom-nom{

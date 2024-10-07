@@ -5,16 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="robots" content="noindex" />
     <title>Portfolio</title>
-    <link rel="icon" type="image" href="./assets/images/favicon.png">
+    <link rel="icon" type="image" href="/assets/images/favicon.png">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"/>
-    
-    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
   </head>
 
   <body data-bs-spy="scroll" data-bs-target="#navigation" data-bs-smooth-scroll="true" tabindex="0">
@@ -48,7 +46,7 @@
       </nav>
     </header>
 
-    <section class="hero">
+    <section class="hero mt-3 mb-5">
       <div class="rond"></div>
         <svg
         class="title-black"
@@ -272,30 +270,43 @@
     </section>
 
     <section id="a-propos" class="mx-3">
-      <h1>Bonjour!</h1>
+      <h1 class="titre-apropos">Bonjour!</h1>
+      <p>NOTE À NE PAS OUBLIER UPDATER MES OEUVRES SUR LES RÉSEAUX SOCIAUX, PRENDRE DES SCREENSHOTS ET VIDÉOS</p>
       <img src="" alt="moi" class="photo-moi">
       <div class="cadre-photo"></div>
       <div class="text-presentation">
-        <p>Je m'appelle Kenza El Harrif et je suis une fière étudiante du program TIM Montmorency !</p>
+        <p>Je suis Kenza El Harrif, une étudiante dans le domaine du multimédia. Je suis intéressée par la modélisation et animation 3D, le design web, et les conceptions audiovisuelles.</p>
       </div>
     </section>
 
 
     <section id="projets" class="mx-3">
-      <h1>Mes Projets !</h1>
+      <h1 class="ms-3 titre-projets">Mes Projets !</h1>
 
       <div class="row">
 
         <div class="col-sm-12 col-md-6 col-lg-4 col-xxl-3">
-          <div class="card">
+          <a href="/oeuvres/Lilo.html"><div class="card">
             <img src="/assets/images/Lilo/Screenshot 2024-09-12 012712.png" class="img-fluid" alt="">
             <div class="card-body p-0">
               <h3 class="card-title">Lilo</h3>
               <p class="card-text">Une courte histoire scrollable fait en html, css, javascript et gsap</p>
             </div>
-          </div>
+          </div></a>
         </div>
           
+        
+
+        <div class="col-sm-12 col-md-6 col-lg-4 col-xxl-3">
+          <div class="card">
+            <img src="/assets/images/cynetart/image_base_cynetart.png" class="img-fluid" alt="">
+            <div class="card-body p-0">
+              <h3 class="card-title">Cynetart</h3>
+              <p class="card-text">Une page promotionnelle pour une application de festival d'art numérique</p>
+            </div>
+          </div>
+        </div>
+
         <div class="col-sm-12 col-md-6 col-lg-4 col-xxl-3">
           <div class="card">
             <img src="/assets/images/notre_culture/image_base_notre_culture.png" class="img-fluid" alt="">
@@ -306,22 +317,12 @@
           </div>
         </div>
 
-        <div class="col-sm-12 col-md-6 col-lg-4 col-xxl-3">
-          <div class="card">
-            <img src="/assets/images/cynetart/image_base_cynetart.png" class="img-fluid" alt="">
-            <div class="card-body p-0">
-              <h3 class="card-title">Notre Culture</h3>
-              <p class="card-text">Une courte histoire scrollable fait en html, css, javascript et gsap</p>
-            </div>
-          </div>
-        </div>
-
 
         <div class="col-sm-12 col-md-6 col-lg-4 col-xxl-3">
           <div class="card">
             <img src="/assets/images/Lilo/Screenshot 2024-09-12 012712.png" class="img-fluid" alt="">
             <div class="card-body p-0">
-              <h3 class="card-title">Notre Culture</h3>
+              <h3 class="card-title">Eve</h3>
               <p class="card-text">Une courte histoire scrollable fait en html, css, javascript et gsap</p>
             </div>
           </div>
@@ -347,20 +348,37 @@
             </div>
           </div>
         </div>
-
-          
-
-
-
       </div>
-
     </section>
+
     <section id="competences" class="mx-3">
-      <h1>Mes Compétences</h1>
+      <h1 class="titre-competences">Mes Compétences</h1>
+      <div><h3>Programmation Web</h3><img src="/assets/images/prog-web.png" alt=""></div>
+      <div><h3>Figma</h3><img src="/assets/images/figma.png" alt=""></div>
+      <div><h3>Adobe</h3><img src="/assets/images/photoshop.png" alt="">
+        <img src="/assets/images/illustrator.png" alt="">
+        <img src="/assets/images/after_effects.png" alt=""></div>
+      <div><h3>Davinci Resolve</h3><img src="/assets/images/DaVinci_Resolve_Studio.png" alt=""></div>
+      <div><h3>TouchDesigner</h3><img src="/assets/images/TouchDesigner.png" alt=""></div>
+      <div><h3>Reaper</h3><img src="/assets/images/reaper.png" alt=""></div>
+      <div><h3>Maya</h3><img src="/assets/images/maya.png" alt=""></div>
+      <div><h3>Unity</h3><img src="/assets/images/unity.png" alt=""></div>
+      
+      
+      
     </section>
     <section id="contact" class="mx-3">
-      <h1>Comment me contacter</h1>
+      <h1 class="titre-contact">Comment me contacter</h1>
+      <p>514-891-4564</p>
+      <p>kennyzaeh1@gmail.com</p>
+      <a href="https://ca.linkedin.com/in/kenza-el-harrif-961a792b5#:~:text=Experience:%20UQAM%20|%20Universit%C3%A9%20du%20Qu%C3%A9bec%20%C3%A0%20Montr%C3%A9al%20%C2%B7%20Location:">LinkedIn</a>
+      <a href="https://www.instagram.com/kenzaelharrif/?igsh=bm1zYWx6OWxkNGhp">Instagram</a>
+      <a href="https://www.behance.net/kenzaelharrif">behance</a>
     </section>
+
+    <footer>
+      @Kenza El Harrif 2024
+    </footer>
       
     
   </body>
