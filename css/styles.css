@@ -31,15 +31,18 @@ nav{
     font-size: 20px;
     width: 100vw;
     margin: none;
-    mix-blend-mode: multiply;
+    
 }
 
 .navbar-brand{
     
-    color: var(--darkGray);
+    color: var(--rosePink);
     font-size: 30px;
     font-weight: 700;
-    
+}
+
+.nav-link{
+    color: var(--rosePink);
 }
 
 
@@ -94,6 +97,7 @@ svg.title-black{
 
 .navbar-toggler{
     border: none;
+    background-color: var(--rosePink);
 }
 
 
@@ -137,7 +141,7 @@ svg.title-black{
     position: absolute;
     top: 40%;
     transition-duration:0.5s;
-    padding: 30px;
+    padding: 70px;
     pointer-events: none;
 }
 
@@ -171,21 +175,35 @@ svg.title-black{
 .img-fluid:hover{
     filter: blur(0) brightness(100%);
 }
+.align-competences{
+ text-align: center;
+ display: flex;
+ flex-wrap: wrap;
+}
+
+.competence-img{
+    width: 9em;
+}
 
 h1{
     font-size: 3.5em;
     font-weight: 600;
 }
 
-
-
-/*.titre-apropos{
-    display: none;
+.behance, .linkedIn, .insta{
+    width: 2em;
+    position: relative;
 }
 
-.titre-competences{
-    display: none;
-}*/
+.titre-apropos{
+    color: var(--sunset);
+    margin: 20px;
+}
+
+.text-presentation{
+    font-size: 1.2em;
+    margin: 20px;
+}
 
 @media screen and (max-width: 768px){
     .prenom-nom{
