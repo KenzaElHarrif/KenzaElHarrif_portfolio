@@ -31,11 +31,20 @@ nav{
     font-size: 20px;
     width: 100vw;
     margin: none;
-    
+}
+
+.bg-nav{
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150%;
+    height: 100%;
+    object-fit: cover;
+    background-color: var(--seasalt);
 }
 
 .navbar-brand{
-    
     color: var(--darkGray);
     font-size: 30px;
     font-weight: 700;
