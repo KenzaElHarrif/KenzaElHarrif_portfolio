@@ -3,7 +3,6 @@ gsap.registerPlugin(ScrollTrigger);
 const myHero = gsap.timeline({scrollTrigger: {
     trigger: ".hero",
     pin:true,
-    start:"top top",
 }});
 
 const card = document.querySelectorAll(".card");
