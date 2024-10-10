@@ -105,13 +105,21 @@ svg.title-black{
 
 /*CARDS*/
 
-.row{
+.competence-row{
+    margin: 0px;
+    display: grid;
+    width: 100%;
+}
+
+.card-row{
     width: 100%;
     display:flex;
     flex-wrap: wrap;
 }
+
+
 .card{
-    margin: 20px;
+    margin: 15px;
     position: relative;
     border-radius: 20px;
     width: 100%;
@@ -141,7 +149,7 @@ svg.title-black{
     text-align: center;
     color: white;
     position: absolute;
-    top: 40%;
+    top: 30%;
     transition-duration:0.5s;
     padding: 70px;
     pointer-events: none;
@@ -179,12 +187,18 @@ svg.title-black{
 }
 .align-competences{
  text-align: center;
- display: flex;
- flex-wrap: wrap;
 }
 
 .competence-img{
-    width: 9em;
+    height: 60px;
+}
+
+.adobe{
+    height: 40px;
+}
+.photoshop{
+    width: 55px;
+    height: auto;
 }
 
 h1{
