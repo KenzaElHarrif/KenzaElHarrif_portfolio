@@ -31,15 +31,16 @@ nav{
     font-size: 20px;
     width: 100vw;
     margin: none;
-    border: 1px solid;
-    border-bottom-color: var(--darkGray);
+    
 }
 
 .bg-nav{
+    border: 1px solid;
+    border-bottom-color: var(--darkGray);
     z-index: -1;
     position: absolute;
     top: 0;
-    left: 0;
+    left: -1px;
     width: 150%;
     height: 100%;
     object-fit: cover;
@@ -237,7 +238,7 @@ h1{
 }
 
 .text-presentation{
-    font-size: 1.2em;
+    font-size: 1.6em;
     margin: 20px;
 }
 
