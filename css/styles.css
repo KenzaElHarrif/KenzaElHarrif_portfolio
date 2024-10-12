@@ -59,7 +59,7 @@ nav{
 
 
 section{
-    margin-bottom: 150px;
+    margin-top: 2%;
     position: relative;
     max-width: 99%;
 }
@@ -72,7 +72,6 @@ section.hero{
     justify-content: center;
     margin: none;
 }
-
 
 div.rond{
     position:absolute;
@@ -99,8 +98,8 @@ svg.title-black{
 }
 .photo-moi{
     border-radius: 30px;
-    margin-left: 10%;
-    width: 80%;
+    margin-left: 1em;
+    width: 90%;
     box-shadow: 
     0px 0px var(--seasalt),
     0px 0px var(--darkGray),
@@ -108,6 +107,9 @@ svg.title-black{
     0px 0px var(--darkGray),
     0px 0px var(--seasalt),
     0px 0px var(--darkGray);
+}
+.conteneur-text{
+    width: 58%;
 }
 .prenom-nom{
     /*display: none;*/
@@ -128,7 +130,6 @@ svg.title-black{
 
 .competence-row{
     margin: 0px;
-    display: grid;
     width: 100%;
 }
 
@@ -214,35 +215,82 @@ svg.title-black{
     height: 60px;
 }
 
-.adobe{
-    height: 40px;
-}
-.photoshop{
-    width: 55px;
-    height: auto;
+h1{
+    margin-bottom: 70px;
+    margin-top: 100px;
+    font-size: 90px;
+    font-weight: 600;
+    color: var(--seasalt);
+    -webkit-text-stroke: 2px var(--darkGray);
+    font-stretch: 0%;
 }
 
-h1{
-    font-size: 3.5em;
-    font-weight: 600;
+.outline{
+    -webkit-text-stroke: 0.04em var(--darkGray);
+  paint-order: stroke fill;
 }
 
 .behance, .linkedIn, .insta{
     width: 2em;
     position: relative;
 }
-
-.titre-apropos{
-    color: var(--sunset);
-    margin: 20px;
+.titre-competences{
+    text-align: right;
 }
 
 .text-presentation{
     font-size: 1.6em;
+    line-height: 35px;
     margin: 20px;
 }
 
+.competence{
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 1024px){
+    h1{
+        font-size: 70px;
+    }
+
+    .titre-apropos{
+        text-align: center;
+    }
+    .text-presentation{
+        text-align: center;
+        font-size: 1.2em;
+    }
+    .conteneur-text{
+        width: 100%;
+    }
+    .photo-moi{
+        margin: 0 auto;
+        width: 70%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .titre-competences{
+        text-align: center;
+    }
+}
+
 @media screen and (max-width: 768px){
+    h1{
+        font-size: 50px;
+    }
+    
+    .titre-apropos{
+        text-align: center;
+    }
+    .titre-projets{
+        text-align: center;
+    }
+    .conteneur-text{
+        margin:none;
+        width: 100%;
+    }
+    
     .prenom-nom{
         font-size: 1.5em;
         bottom:-210px;
@@ -250,6 +298,7 @@ h1{
 }
 
 @media screen and (max-width: 425px){
+    
     .prenom-nom{
         /*display: none;*/
         font-size: 1em;
