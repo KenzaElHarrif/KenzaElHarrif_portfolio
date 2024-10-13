@@ -78,14 +78,14 @@ gsap.fromTo(card,{opacity:0} ,{
     opacity:1,
     y:-10,
     ease:"power1.inOut",
-    duration:2
+    duration:1.7
   })
 
   .fromTo(".text-presentation", {opacity:0, y:10}, {
     opacity:1,
     y:-10,
     ease:"power1.inOut",
-    duration:2
+    duration:1.7
   }, 0)
 
   .fromTo(".photo-moi", {opacity:0, y:10}, {
@@ -93,7 +93,7 @@ gsap.fromTo(card,{opacity:0} ,{
     y:-10,
     ease:"power1.inOut",
     duration:1.3
-  }, 0.5)
+  }, 0)
 
   gsap.fromTo(".competence",{opacity:0} ,{
     scrollTrigger: {
