@@ -291,6 +291,21 @@ i{
     width: 100px;
 }
 
+.bi-arrow-left-circle-fill{
+    background: -webkit-linear-gradient(230deg,var(--wisteria), var(--rosePink), var(--sunset));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition-duration: .5s;
+}
+
+.bi-arrow-left-circle-fill:hover{
+    background: -webkit-linear-gradient(230deg,var(--sunset), var(--rosePink), var(--wisteria));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 span{
     color: var(--wisteria);
     font-weight: bolder;
