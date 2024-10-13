@@ -74,26 +74,35 @@ gsap.fromTo(card,{opacity:0} ,{
     end: '60% 10%',
 }})
   
-  .fromTo(".titre-apropos", {opacity:0, y:60},{  
+  .fromTo(".titre-apropos", {opacity:0, y:10},{  
     opacity:1,
-    y:0,
+    y:-10,
     ease:"power1.inOut",
-    duration:1
+    duration:2
   })
 
-  .fromTo(".text-presentation", {opacity:0, y:60}, {
+  .fromTo(".text-presentation", {opacity:0, y:10}, {
     opacity:1,
-    y:0,
+    y:-10,
     ease:"power1.inOut",
-    duration:1,
-  },0.2)
+    duration:2
+  }, 0)
 
-  .fromTo(".photo-moi", {opacity:0, y:60}, {
+  .fromTo(".photo-moi", {opacity:0, y:10}, {
     opacity:1,
-    y:0,
+    y:-10,
     ease:"power1.inOut",
-    duration:1,
-  },0.4)
+    duration:1.3
+  }, 0.5)
 
-
+  gsap.fromTo(".competence",{opacity:0} ,{
+    scrollTrigger: {
+        trigger: ".titre-competences",
+        toggleActions: "restart none none reverse",
+    },
+    opacity:1,
+    stagger: 0.2,
+    ease:"power1.in",
+    duration:0.5
+  });
   

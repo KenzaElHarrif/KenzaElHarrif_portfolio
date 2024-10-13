@@ -2,7 +2,7 @@
     --rosePink: #FB76CF;
     --darkGray: #555555;
     --seasalt: #f8f8f8;
-    --wisteria: #d6aae4;
+    --wisteria: #ca82e0;
     --sunset: #fac485;
 
 }
@@ -100,6 +100,8 @@ svg.title-black{
     border-radius: 30px;
     margin-left: 1em;
     width: 90%;
+    height: 85%;
+    object-fit: cover;
     box-shadow: 
     0px 0px var(--seasalt),
     0px 0px var(--darkGray),
@@ -107,9 +109,6 @@ svg.title-black{
     0px 0px var(--darkGray),
     0px 0px var(--seasalt),
     0px 0px var(--darkGray);
-}
-.conteneur-text{
-    width: 58%;
 }
 .prenom-nom{
     /*display: none;*/
@@ -122,7 +121,6 @@ svg.title-black{
 
 .navbar-toggler{
     border: none;
-    background-color: var(--rosePink);
 }
 
 
@@ -150,7 +148,7 @@ svg.title-black{
     overflow: hidden;
     background-color: transparent;
     transition-duration:0.5s;
-    border: 2px solid var(--darkGray);
+    border:3px solid var(--darkGray);
 }
 
 .card-title{
@@ -212,11 +210,16 @@ svg.title-black{
 }
 
 .competence-img{
-    height: 60px;
+    margin-top: 10px;
+    height: 90px;
+}
+
+.adobe, .touch{
+    height: 70px;
 }
 
 h1{
-    margin-bottom: 70px;
+    margin-bottom: 50px;
     margin-top: 100px;
     font-size: 90px;
     font-weight: 600;
@@ -230,12 +233,24 @@ h1{
   paint-order: stroke fill;
 }
 
-.behance, .linkedIn, .insta{
-    width: 2em;
-    position: relative;
-}
 .titre-competences{
+    margin-right:24px;
     text-align: right;
+}
+.titre-apropos{
+    margin-top:20px;
+}
+
+.titre-contact{
+    margin-top:100px;
+}
+
+.contact-row{
+    text-align: center;
+}
+
+.titre-projets{
+    margin-left:24px;
 }
 
 .text-presentation{
@@ -245,20 +260,82 @@ h1{
 }
 
 .competence{
+    padding:30px;
     margin-top: 30px;
+}
+
+i{
+    font-size: 55px;
+}
+
+.div-insta{
+    width: 100px;
+}
+
+.bi-instagram{
+    background: -webkit-linear-gradient(230deg,var(--wisteria), var(--rosePink), var(--sunset));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.bi-linkedin{
+    background: -webkit-linear-gradient(230deg,var(--wisteria), var(--rosePink),var(--sunset));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.div-linked{
+    width: 100px;
+}
+
+span{
+    color: var(--wisteria);
+    font-weight: bolder;
+}
+
+footer{
+    margin-top: 100px;
+    margin-bottom:70px;
+    text-align: center;
+    color: var(--rosePink);
+    opacity: 0.5;
+}
+
+.bg-rond1{
+    z-index: -10;
+    width: 80%;
+    top: 70em;
+    left: 0;
+    position: absolute;
+}
+
+.bg-rond2{
+    height: 150%;
+    z-index: -10;
+    right: 0;
+    top: 220em;
+    position: absolute;
 }
 
 @media screen and (max-width: 1024px){
     h1{
         font-size: 70px;
-    }
-
-    .titre-apropos{
         text-align: center;
     }
+
+    .titre-competences{
+        text-align: center;
+        margin-right:0;
+    }
+   
     .text-presentation{
         text-align: center;
         font-size: 1.2em;
+    }
+
+    .titre-projets{
+        margin-left:0;
     }
     .conteneur-text{
         width: 100%;
@@ -269,23 +346,21 @@ h1{
         display: flex;
         justify-content: center;
     }
-
-    .titre-competences{
-        text-align: center;
-    }
 }
 
 @media screen and (max-width: 768px){
+    .bg-rond1{
+        top: 70em;
+        left: -2em;
+    }
+
+    .bg-rond2{
+        top: 350em;
+    }
     h1{
         font-size: 50px;
     }
     
-    .titre-apropos{
-        text-align: center;
-    }
-    .titre-projets{
-        text-align: center;
-    }
     .conteneur-text{
         margin:none;
         width: 100%;
