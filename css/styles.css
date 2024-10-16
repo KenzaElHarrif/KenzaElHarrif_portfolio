@@ -335,6 +335,42 @@ footer{
     position: absolute;
 }
 
+
+/*--OEUVRES--*/
+
+.titre-oeuvre{
+    margin-top:80px;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*--SWIPER--*/
+
+.swiper {
+    margin-top: 100px;
+    width:101%;
+  height:810px;
+  }
+
+  .swiper-button-next{
+    color: var(--rosePink);
+  }
+  .swiper-button-prev{
+    color: var(--rosePink);
+  }
+
+  .swiper-pagination-bullet-active{
+    background-color:var(--rosePink);
+  }
+
+  .swiper-slide img {
+    width:100%;
+    height:100%;
+    object-fit:cover;
+  }
+
 @media screen and (max-width: 1024px){
     h1{
         font-size: 70px;
