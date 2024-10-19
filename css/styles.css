@@ -339,6 +339,7 @@ footer{
 /*--OEUVRES--*/
 
 .titre-oeuvre{
+    font-size: 100px;
     margin-top:80px;
     margin-bottom: 30px;
     text-align: center;
@@ -349,17 +350,20 @@ footer{
 /*--SWIPER--*/
 
 .swiper {
-    border-radius: 50px;
-    margin-top: 125px;
-    width:75%;
-    height: 760px;
+    margin-top: 99px;
+    width:101%;
+    height: 90vh;
   }
 
   .swiper-button-next{
     color: var(--rosePink);
+    position: absolute;
+    right:5%;
   }
   .swiper-button-prev{
     color: var(--rosePink);
+    position: absolute;
+    left:5%;
   }
 
   .swiper-pagination-bullet-active{
@@ -371,6 +375,92 @@ footer{
     height:100%;
     object-fit: cover;
   }
+
+  .description_oeuvre{
+    text-align: center;
+    line-height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .liste-equipe{
+    font-size: 1.2em;
+  }
+
+  .equipe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .description-longue-oeuvre{
+    font-size:1.2em;
+  }
+
+  .titre-desc-oeuvre{
+    font-size: 2.5em;
+    margin-top: 70px;
+    margin-bottom: 10px;
+  }
+
+  .description-rapide-oeuvre{
+    font-size: 1.9em;
+  }
+
+  .link-oeuvre{
+    color: var(--wisteria);
+  }
+
+  b{
+    color: var(--wisteria);
+  }
+
+  .date-oeuvre{
+    font-size: 1.2em;
+    color: var(--wisteria);
+    font-weight: 500;
+  }
+
+  .gsap{
+    height: 70px;
+  }
+
+  .procreate{
+    height: 70px;
+  }
+
+  .sass{
+    height: 80px;
+  }
+
+  .image-processes-oeuvre{
+    width: 500px;
+    margin:5px;
+  }
+
+  .processus{
+    display: flex;
+    justify-content: center;
+    
+    flex-wrap: wrap;
+  }
+
+  .video-hero{
+    margin-top: 61px;
+    width: 101%;
+    height: 90vh;
+  }
+
+  .processus-rupture-img{
+    width: 80%;
+  }
+
+  iframe{
+    width: 100%;
+    height: 50vh;
+  }
+
 
 @media screen and (max-width: 1024px){
     h1{
@@ -424,10 +514,26 @@ footer{
         font-size: 1.5em;
         bottom:-210px;
     }
+
+    .swiper-button-next{
+        display: none;
+      }
+      .swiper-button-prev{
+        display: none;
+      }
+
+      .image-processes-oeuvre{
+        width: 400px;
+        margin:5px;
+      }
+
+      .titre-oeuvre{
+        font-size: 70px;
+    }
 }
 
 @media screen and (max-width: 425px){
-    
+
     .prenom-nom{
         /*display: none;*/
         font-size: 1em;
