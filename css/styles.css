@@ -276,12 +276,14 @@ i{
 
 .bi-instagram{
     background: -webkit-linear-gradient(230deg,var(--wisteria), var(--rosePink), var(--sunset));
+    background: linear-gradient(230deg,var(--wisteria), var(--rosePink), var(--sunset));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 .bi-linkedin{
     background: -webkit-linear-gradient(230deg,var(--wisteria), var(--rosePink),var(--sunset));
+    background: linear-gradient(230deg,var(--wisteria), var(--rosePink),var(--sunset));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -293,6 +295,7 @@ i{
 
 .bi-arrow-left-circle-fill{
     background: -webkit-linear-gradient(230deg,var(--wisteria), var(--rosePink), var(--sunset));
+    background: linear-gradient(230deg,var(--wisteria), var(--rosePink), var(--sunset)); /* Standard */
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -301,6 +304,7 @@ i{
 
 .bi-arrow-left-circle-fill:hover{
     background: -webkit-linear-gradient(230deg,var(--sunset), var(--rosePink), var(--wisteria));
+    background: linear-gradient(230deg,var(--sunset), var(--rosePink), var(--wisteria));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
