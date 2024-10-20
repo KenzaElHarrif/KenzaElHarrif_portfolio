@@ -83,7 +83,7 @@ div.rond{
     background-size: contain;
 }
 
-svg{
+svg.down{
     display: block;
     position: absolute; /* or relative */
     left: 50%;
@@ -92,6 +92,10 @@ svg{
 }
 
 svg.title-black{
+    display: block;
+    position: absolute; /* or relative */
+    left: 50%;
+    width: 40%;
     top: 50%;
     opacity: 1;
 }
@@ -270,46 +274,20 @@ i{
     font-size: 55px;
 }
 
-.div-insta{
+
+
+.contact-row {
+    text-align: center; /* Center align text */
+}
+
+.div-linked,
+.div-insta {
+    margin-top: 20px;
     width: 100px;
-}
-
-.bi-instagram{
-    background: -webkit-linear-gradient(230deg,var(--wisteria), var(--rosePink), var(--sunset));
-    background: linear-gradient(230deg,var(--wisteria), var(--rosePink), var(--sunset));
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-font-smoothing: antialiased; /* Improve rendering */
-}
-.bi-linkedin{
-    background: -webkit-linear-gradient(230deg,var(--wisteria), var(--rosePink),var(--sunset));
-    background: linear-gradient(230deg,var(--wisteria), var(--rosePink),var(--sunset));
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-font-smoothing: antialiased; /* Improve rendering */
-}
-
-.div-linked{
-    width: 100px;
-}
-
-.bi-arrow-left-circle-fill{
-    background: -webkit-linear-gradient(230deg,var(--wisteria), var(--rosePink), var(--sunset));
-    background: linear-gradient(230deg,var(--wisteria), var(--rosePink), var(--sunset)); /* Standard */
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    transition-duration: .5s;
-}
-
-.bi-arrow-left-circle-fill:hover{
-    background: -webkit-linear-gradient(230deg,var(--sunset), var(--rosePink), var(--wisteria));
-    background: linear-gradient(230deg,var(--sunset), var(--rosePink), var(--wisteria));
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    display: flex; /* Use flexbox to center icons */
+    justify-content: center; /* Center the icon */
+    align-items: center; /* Align vertically */
+    height: 100%; /* Allow columns to take full height */
 }
 
 span{
