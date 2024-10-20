@@ -280,6 +280,8 @@ i{
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    -webkit-font-smoothing: antialiased; /* Improve rendering */
+    -moz-osx-font-smoothing: grayscale;
 }
 .bi-linkedin{
     background: -webkit-linear-gradient(230deg,var(--wisteria), var(--rosePink),var(--sunset));
@@ -287,6 +289,8 @@ i{
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    -webkit-font-smoothing: antialiased; /* Improve rendering */
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .div-linked{
@@ -300,6 +304,9 @@ i{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition-duration: .5s;
+    -webkit-font-smoothing: antialiased; /* Improve rendering */
+    -moz-osx-font-smoothing: grayscale;
+
 }
 
 .bi-arrow-left-circle-fill:hover{
@@ -308,6 +315,8 @@ i{
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    -webkit-font-smoothing: antialiased; /* Improve rendering */
+    -moz-osx-font-smoothing: grayscale;
 }
 
 span{
