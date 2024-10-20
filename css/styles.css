@@ -1,5 +1,3 @@
-@import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css');
-
 :root{
     --rosePink: #FB76CF;
     --darkGray: #555555;
@@ -277,24 +275,20 @@ i{
 }
 
 .bi-instagram{
-    color: #ca82e0;
-    /*background: -webkit-linear-gradient(230deg,var(--wisteria), var(--rosePink), var(--sunset));
+    background: -webkit-linear-gradient(230deg,var(--wisteria), var(--rosePink), var(--sunset));
     background: linear-gradient(230deg,var(--wisteria), var(--rosePink), var(--sunset));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;*/
+    -webkit-font-smoothing: antialiased; /* Improve rendering */
 }
 .bi-linkedin{
-    color: #ca82e0;
-    /*background: -webkit-linear-gradient(230deg,var(--wisteria), var(--rosePink),var(--sunset));
+    background: -webkit-linear-gradient(230deg,var(--wisteria), var(--rosePink),var(--sunset));
     background: linear-gradient(230deg,var(--wisteria), var(--rosePink),var(--sunset));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;*/
+    -webkit-font-smoothing: antialiased; /* Improve rendering */
 }
 
 .div-linked{
@@ -308,9 +302,6 @@ i{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition-duration: .5s;
-    -webkit-font-smoothing: antialiased; /* Improve rendering */
-    -moz-osx-font-smoothing: grayscale;
-
 }
 
 .bi-arrow-left-circle-fill:hover{
@@ -319,8 +310,6 @@ i{
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    -webkit-font-smoothing: antialiased; /* Improve rendering */
-    -moz-osx-font-smoothing: grayscale;
 }
 
 span{
