@@ -437,7 +437,7 @@ footer{
   }
 
   .processus-rupture-img{
-    width: 80%;
+    width: 100%;
   }
 
   iframe{
@@ -445,6 +445,17 @@ footer{
     height: 50vh;
   }
 
+  .etape{
+    margin-top: 70px;
+  }
+
+  .sous-titre-process{
+    color: var(--rosePink);
+  }
+
+  .text-processus-rupture{
+    font-size: 1.2em;
+  }
 
 @media screen and (max-width: 1024px){
     h1{
